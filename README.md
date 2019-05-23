@@ -56,6 +56,8 @@ fork, clone, npm install, npm start
   * `export default connect(mapStateToProps)(<COMPONENT-NAME>)`
 
 ### Think - Why do the other components not care about the store such that we don't need to make them Containers?
+<!-- they dont need anything 
+from store -->
 
 ### Fix
 * In App.js remove the props parameter and all instances of passing props. Additionally, remove the App.propTypes object.

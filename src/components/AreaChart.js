@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function AreaChart() {
   return (   
@@ -15,6 +15,6 @@ function AreaChart() {
       </div>
     </div>
   )
-}
+};
 
-export default AreaChart
+export default AreaChart;

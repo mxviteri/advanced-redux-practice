@@ -38,8 +38,8 @@ function TransactionsPanel(props) {
 
 const mapStateToProps = (state) => {
   return {
-    orders = state.orders
+    orders: state.orders
   }
 } 
 
-export default connect(mapStatToProps)(TransactionsPanel);
+export default connect(mapStateToProps)(TransactionsPanel);
